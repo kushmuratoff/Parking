@@ -1,0 +1,34 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+@{
+    ViewBag.Title = "Xodimlar";
+}
+
+<section class="banner-w3layouts-bottom py-5" id="team">
+    <div class="container">
+        <div class="inner-sec-wthree py-lg-3 speak">
+            <h3 class="heading mb-5 text-center">Barcha <span> xodimlar</span> </h3>
+            <h4><a href="/Admin/Register">Yangi qo'shish</a></h4>
+            <div class="row mt-lg-5 mt-4">
+                @foreach (Xodim x in Model.Xodim)
+                {
+                     <div class="col-md-4">                    
+                    <div class="team-gd text-center">
+                        
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">@x.FISH</span> @x.MoshinaR</h3>
+                            <p><a href="/Admin/RemoveX/@x.Id">O'chirish</a></p>
+                        </div>
+                    </div>
+                </div>
+                }
+               
+            </div>
+        </div>
+    </div>
+</section>
+<div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2"><a href="/Admin/Adminga" class="btn btn-danger" style="width:120px;">Bosh sahifa</a></div>
+
+</div>

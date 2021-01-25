@@ -1,0 +1,84 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+@{
+    ViewBag.Title = "Ketish";
+}
+
+<br />
+<br />
+<h1 style="text-align:center;"><b>Kunlik ro'yhat</b></h1>
+<br />
+<br />
+<table class="table">
+    <tr>
+        <th>
+            FISH
+        </th>
+        <th>
+            Moshina raqmi
+        </th>
+        <th>
+            Kelgan vaqti
+        </th>
+        <th>
+            Ketgan vaqti
+        </th>
+        <th>
+            Joyi
+        </th>
+        <th>
+            Narxi
+        </th>
+        <th>
+            Kuni
+        </th>
+        <th>
+            To'lov summasi
+        </th>
+
+    </tr>
+    @foreach (var t in ViewBag.sa)
+{
+    <tr>
+        <td>
+          @t.FISH
+        </td>
+        <td>
+            @t.nomer
+        </td>
+        <td>
+            @t.kel
+            
+  
+        </td>
+        <td>
+            @t.ket
+        </td>
+        <td>
+           @t.joyi
+        </td>
+        <td>
+            @t.narx
+        </td>
+        <td>
+            @t.kuni
+        </td>
+        <td>
+            @t.summa
+        </td>
+    </tr>
+    
+}
+</table>
+
+<br />
+
+
+
+<br />
+<div class="row">
+    <div class="col-md-8"></div>
+    <div class="col-md-2"> <div class="col-md-2"><a href="/Admin/Adminga" class="btn btn-danger">Bosh sahifa</a></div></div>
+    <div class="col-md-2"><a href="/Admin/Pdfga" class="btn btn-success">PDFda saqlash</a></div>
+</div>
+

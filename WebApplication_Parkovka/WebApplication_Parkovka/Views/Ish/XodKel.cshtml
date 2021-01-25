@@ -1,0 +1,43 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+
+@{
+    ViewBag.Title = "FoyKel";
+}
+<br />
+<br/>
+<h1 style="text-align:center;"><b>Xodim keldi</b></h1>
+<br />
+<br/>
+<div class="row">
+    <div class="col-lg-4 contact-agileits-w3layouts">
+
+    </div>
+    <div class="col-lg-6 regstr-r-w3-agileits mt-lg-0 mt-5">
+        <div class="form-bg-w3ls">
+            <form action="/Ish/XodKel" method="post">
+                
+                <div class="form-group" style="width:450px;">
+                    <select name="XodimId" id="narxlar" class="form-control" style="height:50px;">
+                        <option disabled selected>Xodimni tanlang...</option>
+                        @foreach (Xodim n in Model.Xodim)
+                        {
+                            <option value="@n.Id">FISH: @n.FISH Narxi:@n.MoshinaR</option>
+                        }
+
+                    </select>
+                </div>
+
+
+                <button type="submit" class="button-w3layouts border btntext-uppercase" style="width:450px;">Saqlash</button>
+            </form>
+        </div>
+    </div>
+</div>
+<br />
+<br/>
+<div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2"><a href="/Ish/Qvga" class="btn btn-danger">Bosh sahifa</a></div>
+
+</div>

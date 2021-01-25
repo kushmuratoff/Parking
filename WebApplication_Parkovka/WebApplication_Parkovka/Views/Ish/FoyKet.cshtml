@@ -1,0 +1,44 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+
+@{
+    ViewBag.Title = "Foydalanuvchi ketishi";
+}
+<br />
+<br />
+<h1 style="text-align:center;"><b>Foydalanuvchi ketdi</b></h1>
+<br />
+<br />
+<div class="row">
+    
+    <div class="col-lg-4 contact-agileits-w3layouts">
+
+    </div>
+    <div class="col-lg-5 regstr-r-w3-agileits mt-lg-0 mt-5">
+        <div class="form-bg-w3ls">
+            <form action="/Ish/FoyKet" method="post">
+               
+                <div class="form-group">
+                    <select name="JoylarId" id="narxlar" class="form-control" style="height:50px; width:430px;">
+                        <option disabled selected>Foydalanuvchini tanlang...</option>
+                        @foreach (JadvalFoy n in Model.JadvalFoy)
+                        {
+                            <option value="@n.Id">FISH: @n.FoyFISH Raqami:@n.MoshinaN</option>
+                        }
+
+                    </select>
+                </div>
+
+
+                <button type="submit" class="button-w3layouts border btntext-uppercase" style="height:50px; width:430px;">Tasdiqlash</button>
+            </form>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2"><a href="/Ish/Qvga" class="btn btn-danger">Bosh sahifa</a></div>
+
+</div>

@@ -1,0 +1,40 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+
+@{
+    ViewBag.Title = "FoyKel";
+}
+<br/>
+<h1 style="text-align:center;"><b>Foydalanuvchi keldi</b></h1>
+<br />
+<br />
+<div class="row">
+    <div class="col-lg-4 contact-agileits-w3layouts">
+
+    </div>
+    <div class="col-lg-4 regstr-r-w3-agileits mt-lg-0 mt-5">
+        <div class="form-bg-w3ls">
+            <form action="/Ish/FoyKel" method="post">
+                <div class="form-group">
+                    <input type="text" name="FISH" class="form-control"  placeholder="FISH" required="">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="MoshinaR" class="form-control" placeholder="Avtomobil raqami" required="">
+                </div>   
+                <div class="form-group">
+                    <select name="JoylarId" id="narxlar" class="form-control" style="height:50px;">
+                        <option disabled selected>Joyni tanlang...</option>
+                        @foreach (Joylar n in Model.Joylar)
+                        {
+                            <option value="@n.Id">Joy nomeri: @n.Nomeri Narxi:@n.Narx.Summa</option>
+                        }
+
+                    </select>
+                </div>
+         
+
+                <button type="submit" class="button-w3layouts border btntext-uppercase">Saqlash</button>
+            </form>
+        </div>
+    </div>
+</div>

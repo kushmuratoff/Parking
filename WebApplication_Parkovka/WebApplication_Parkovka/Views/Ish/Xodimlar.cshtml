@@ -1,0 +1,22 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+
+@{
+    ViewBag.Title = "Yangi xodimlar";
+}
+
+<br />
+
+<table class="table">
+    <tr><th>FISH</th><th>Avtomobil raqami</th></tr>
+
+    @foreach (Xodim n in Model.Xodim)
+    {
+        <tr>
+            <td>@n.FISH</td>
+            <td>@n.MoshinaR</td>
+            <td><a href="/Ish/JoyBerish/@n.Id"> Joy berish</a></td>
+
+        </tr>
+    }
+</table>

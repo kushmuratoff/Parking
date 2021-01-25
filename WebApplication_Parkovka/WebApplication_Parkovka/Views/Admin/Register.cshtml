@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<div class="row">
+    <div class="col-lg-4 contact-agileits-w3layouts">
+
+    </div>
+    <div class="col-lg-4 regstr-r-w3-agileits mt-lg-0 mt-5">
+        <br /><h3 style="text-align:center;"><b>Ro'yhatdan o'tish</b></h3><br />
+        <p style="color:red;">@ViewBag.habar</p>
+        <div class="form-bg-w3ls">
+            <form action="/Admin/Register" method="post">
+                <div class="form-group">
+                    <input type="text" name="Login" class="form-control" placeholder="Login" required="">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Parol" class="form-control" placeholder="Parol" required="">
+                </div>
+
+                <button type="submit" class="button-w3layouts border btntext-uppercase">Saqlash</button>
+            </form>
+        </div>
+    </div>
+</div>
+

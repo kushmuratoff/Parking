@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "Adminga";
+}
+<br/>
+<h3 class="tittle text-center mb-lg-5 mb-3">Nazorat bo'limi</h3>
+
+<section class="text-bottom py-5">
+    <div class="container py-md-5">
+        <div class="inner-sec-w3pvt">
+
+            
+            <div class="feature-grids row mt-3 text-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="bottom-gd px-3 text-center">
+                        <div class="f-icon">
+                            <span class="fa fa-building-o" aria-hidden="true"></span>
+                        </div>
+                        <h3 class="mt-4"><a href="/Ish/Xodimlar"> Yangi xodimlar:@ViewBag.soni</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                    <div class="bottom-gd px-3 text-center">
+                        <div class="f-icon">
+                            <span class="fa fa-cogs" aria-hidden="true"></span>
+                        </div>
+                        <h3 class="mt-4"><a href="/Ish/Joy">Joylar</a></h3>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+                    <div class="bottom-gd px-3 text-center">
+                        <div class="f-icon">
+                            <span class="fa fa-anchor" aria-hidden="true"></span>
+                        </div>
+                        <h3 class="mt-4"><a href="/Ish/Narxlar">Narx</a></h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="feature-grids row mt-3 text-center">
+                @*<div class="col-lg-4 col-md-6">
+                    <div class="bottom-gd px-3 text-center">
+                        <div class="f-icon">
+                            <span class="fa fa-building-o" aria-hidden="true"></span>
+                        </div>
+                        <h3 class="mt-4"><a href="/Admin/Xodimlar"> Xisobot</a></h3>
+                    </div>
+                </div>*@
+                <div class="col-lg-6 col-md-6 mt-md-0 mt-4">
+                    <div class="bottom-gd px-3 text-center">
+                        <div class="f-icon">
+                            <span class="fa fa-anchor" aria-hidden="true"></span>
+                        </div>
+                        <h3 class="mt-4"><a href="/Ish/Mehmon">Foydalanuvchi</a></h3>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-0 mt-4">
+                    <div class="bottom-gd px-3 text-center">
+                      
+                        <div class="f-icon">
+                            <span class="fa fa-cogs" aria-hidden="true"></span>
+                        </div>
+                        <h3 class="mt-4"><a href="/Ish/Ishchi">Xodim</a></h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<a class="btn btn-danger" href="/Home/Logoff"> Chiqish</a>
+@if (User.Identity.IsAuthenticated)
+{
+    
+    <li class="mr-lg-3 mr-2"><a href="/Home/Logoff"><font color="red"><b>Chiqish</b></font></a></li>
+    <li class="mr-lg-3 mr-2"><a href="/Home/Open" style="color:blue;"><b>@(User.Identity.IsAuthenticated ? "Salom: " + HttpContext.Current.User.Identity.Name : "")</b></a></li>
+
+}
+else
+{
+    
+    <li class="mr-lg-3 mr-2"><a href="/Home/Krish"><font color="white">Kirish</font></a></li>
+
+}
+<div class="nav_w3ls">
+    <nav>
+        <label for="drop" class="toggle mt-lg-0 mt-1"><span class="fa fa-bars" aria-hidden="true"></span></label>
+        <input type="checkbox" id="drop" />
+        <ul class="menu">
+
+            <li class="mr-lg-3 mr-2"><a href="about.html"></a></li>
+            <li class="mr-lg-3 mr-2"><a href="gallery.html"></a></li>
+           
+            @*<li class="mr-3 icons"><a href="#" style="color:blue;"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+            <li class="mr-3 icons"><a href="#" style="color:blue;"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+            <li class="mr-3 icons"><a href="#" style="color:blue;"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+            <li class=" icons"><a href="#" style="color:blue;"><span class="fa fa-pinterest" aria-hidden="true"></span></a></li>*@
+        </ul>
+    </nav>
+</div>
+

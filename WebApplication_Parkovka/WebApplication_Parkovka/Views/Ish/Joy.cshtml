@@ -1,0 +1,27 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+
+@{
+    ViewBag.Title = "Joylar";
+}
+
+<br />
+<h4><a href="/Ish/Joy_qush">Yangi qo'shish</a></h4><br />
+<table class="table">   
+    <tr><th>Joy</th><th>Narxi</th></tr>
+
+    @foreach (Joylar n in Model.Joylar)
+    {
+        <tr>
+            <td>@n.Nomeri</td>
+            <td>@n.Narx.Summa</td>
+            <td><a href="#"> o'zgartirish</a></td>
+
+        </tr>
+    }
+</table>
+<div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2"><a href="/Ish/Qvga" class="btn btn-danger" style="width:120px;">Bosh sahifa</a></div>
+
+</div>

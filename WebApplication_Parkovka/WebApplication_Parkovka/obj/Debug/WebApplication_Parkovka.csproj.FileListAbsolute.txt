@@ -1,0 +1,74 @@
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.csprojResolveAssemblyReference.cache
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\WebApplication_Parkovka.dll.config
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\WebApplication_Parkovka.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\WebApplication_Parkovka.pdb
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\Antlr3.Runtime.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\EntityFramework.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\EntityFramework.SqlServer.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\Microsoft.Web.Infrastructure.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\Newtonsoft.Json.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Helpers.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Mvc.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Optimization.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Razor.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.Deployment.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.Razor.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\WebGrease.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\EntityFramework.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\EntityFramework.SqlServer.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Helpers.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Mvc.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Optimization.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Razor.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.Deployment.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.Razor.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\Newtonsoft.Json.xml
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\Antlr3.Runtime.pdb
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.dll
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.pdb
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.Migrations.InitialCreate.resources
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.csproj.GenerateResource.Cache
+c:\users\samariddin\documents\visual studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.Migrations.yangi1.resources
+C:\Users\Samariddin\Documents\Visual Studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.Migrations.yangi2.resources
+C:\Users\Samariddin\Documents\Visual Studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\itextsharp.dll
+C:\Users\Samariddin\Documents\Visual Studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\itextsharp.xmlworker.dll
+C:\Users\Samariddin\Documents\Visual Studio 2013\Projects\WebApplication_Parkovka\WebApplication_Parkovka\bin\itextsharp.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\WebApplication_Parkovka.dll.config
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\WebApplication_Parkovka.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\WebApplication_Parkovka.pdb
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\Antlr3.Runtime.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\EntityFramework.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\EntityFramework.SqlServer.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\itextsharp.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\itextsharp.xmlworker.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\Newtonsoft.Json.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Helpers.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Mvc.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Optimization.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Razor.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.Razor.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\WebGrease.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\EntityFramework.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\EntityFramework.SqlServer.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\itextsharp.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Helpers.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Mvc.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Optimization.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.Razor.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\System.Web.WebPages.Razor.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\Newtonsoft.Json.xml
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\bin\Antlr3.Runtime.pdb
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.Migrations.InitialCreate.resources
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.Migrations.yangi1.resources
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.Migrations.yangi2.resources
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.csproj.GenerateResource.Cache
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.dll
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.pdb
+C:\Users\Farrux Boymurodov\Desktop\Eldor\WebApplication_Parkovka\WebApplication_Parkovka\obj\Debug\WebApplication_Parkovka.csprojResolveAssemblyReference.cache

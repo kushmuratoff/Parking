@@ -1,0 +1,140 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+@{
+    ViewBag.Title = "Holat";
+}
+
+<br />
+<h1 style="text-align:center;"><b>Foydalanuvchilar ro'yhati</b></h1>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            FISH
+        </th>
+        <th>
+            Moshina raqmi
+        </th>
+        <th>
+            Kelgan vaqti
+        </th>
+        <th>
+            Ketgan vaqti
+        </th>
+        <th>
+            Joyi
+        </th>
+        <th>
+            Narxi
+        </th>
+        <th>
+            Kuni
+        </th>
+        <th>
+            To'lov summasi
+        </th>
+
+    </tr>
+    @foreach (var t in ViewBag.sa)
+    {
+        <tr>
+            <td>
+                @t.FISH
+            </td>
+            <td>
+                @t.nomer
+            </td>
+            <td>
+                @t.kel
+            </td>
+            <td>
+               -
+            </td>
+            <td>
+                @t.joyi
+            </td>
+            <td>
+                @t.narx
+            </td>
+            <td>
+                @t.kuni
+            </td>
+            <td>
+                @t.summa
+            </td>
+        </tr>
+
+    }
+</table>
+
+<h1 style="text-align:center;"><b>Xodimlar ro'yhati</b></h1>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            FISH
+        </th>
+        <th>
+            Moshina raqmi
+        </th>
+        <th>
+            Kelgan vaqti
+        </th>
+        <th>
+            Ketgan vaqti
+        </th>
+        <th>
+            Joyi
+        </th>
+        <th>
+            Narxi
+        </th>
+        <th>
+            Kuni
+        </th>
+        <th>
+            To'lov summasi
+        </th>
+
+    </tr>
+    @foreach (var t in ViewBag.hod)
+    {
+        <tr>
+            <td>
+                @t.FISH
+            </td>
+            <td>
+                @t.nomer
+            </td>
+            <td>
+                @t.kel
+            </td>
+            <td>
+                -
+            </td>
+            <td>
+                @t.joyi
+            </td>
+            <td>
+                @t.narx
+            </td>
+            <td>
+                @t.kuni
+            </td>
+            <td>
+                @t.summa
+            </td>
+        </tr>
+
+    }
+</table>
+
+<br />
+
+</div>
+<br />
+<div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2"> <a href="/Admin/Adminga" class="btn btn-danger">Bosh sahifa</a></div></div>
+
+</div>

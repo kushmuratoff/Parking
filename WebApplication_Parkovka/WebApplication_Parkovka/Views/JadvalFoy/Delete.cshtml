@@ -1,0 +1,64 @@
+﻿@model WebApplication_Parkovka.Models.JadvalFoy
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>JadvalFoy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Joylar.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Joylar.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FoyFISH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FoyFISH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MoshinaN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoshinaN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KelishV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KelishV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KetishV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KetishV)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

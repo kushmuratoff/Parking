@@ -1,0 +1,42 @@
+﻿@model WebApplication_Parkovka.Models.JadvalXodim
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>JadvalXodim</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Xodim.FISH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Xodim.FISH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KelishV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KelishV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KetishV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KetishV)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

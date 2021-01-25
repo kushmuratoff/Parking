@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Saqlash";
+}
+
+<div class="row">
+    <div class="col-lg-4 contact-agileits-w3layouts">
+
+    </div>
+    <div class="col-lg-4 regstr-r-w3-agileits mt-lg-0 mt-5">
+        <br /><h3 style="text-align:center;"><b>Ro'yhatdan o'tish</b></h3><br /><br />
+        <p style="color:red;">@ViewBag.habar</p>
+        <div class="form-bg-w3ls">
+            <form action="/Admin/Saqlash" method="post">
+                <div class="form-group">
+                    <input type="text" name="Login" value="@ViewBag.Login" class="form-control" placeholder="Login" required="" hidden="hidden">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Parol" value="@ViewBag.Parol" class="form-control" placeholder="Parol" required="" hidden="hidden">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="FISH"  class="form-control" placeholder="FISH" required="">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="MoshinaR"  class="form-control" placeholder="Moshina raqami" required="">
+                </div>
+
+                <button type="submit" class="button-w3layouts border btntext-uppercase">Saqlash</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WebApplication_Parkovka.Models.JadvalFoy>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Joylar.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FoyFISH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MoshinaN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KelishV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KetishV)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Joylar.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FoyFISH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MoshinaN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KelishV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KetishV)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

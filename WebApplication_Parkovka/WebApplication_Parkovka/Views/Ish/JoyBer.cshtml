@@ -1,0 +1,66 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+@{
+    ViewBag.Title = "Joy_qush";
+}
+
+<h2>Joy narxini tanlang</h2>
+<div class="row">
+    <div class="col-lg-4 contact-agileits-w3layouts">
+
+    </div>
+    <div class="col-lg-4 regstr-r-w3-agileits mt-lg-0 mt-5">
+        <div class="form-bg-w3ls">
+            <form action="/Ish/JoyBer" method="post">
+                <div class="form-group">
+                    <input type="text" name="XodimId" class="form-control" value="@ViewBag.Id" placeholder="Xodim" required="">
+                </div>
+                <div class="form-group">
+                    <select name="NarxIdq" id="narxlar" class="form-control" style="height:50px;">
+                        <option disabled selected>Narxni tanlang...</option>
+                        @foreach (Narx n in Model.Narx)
+                        {
+                            <option value="@n.Id" >@n.Summa</option>
+                        }
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select name="JoyIdq" id="JoyId" class="form-control" style="height:50px;">
+                    
+
+                    </select>
+                </div>
+
+                <button type="submit" class="button-w3layouts border btntext-uppercase">Saqlash</button>
+            </form>
+        </div>
+    </div>
+</div>
+<select id="sa" onchange="btn()">
+    <option value="1">1</option>
+    <option value="1">1</option>
+    <option value="1">1</option>
+
+</select>
+<select id="bn">
+
+</select>
+
+<script type="text/javascript">
+   
+    $('#sa').on('change', function (e) {
+        var id = e.target.value;
+        var ur = '/Ish/getJoy/' + id;
+        alert("das");
+        $.post(ur, function (data) {
+           
+            $('#bn').empty();
+            $('#bn').append('<option disabled selected>Tanlang</option>');
+            $.each(data, function (index, subCatObj) {
+                $('#bn').append('<option value="' + subCatObj.Id + '">' + "asdas" + '</option>');               
+
+            });
+        });
+    });
+</script>

@@ -1,0 +1,44 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+@{
+    ViewBag.Title = "Joy_qush";
+}
+<br />
+<br />
+<h1 style="text-align:center;"><b>Joyni tanlash</b></h1>
+<br />
+<br />
+<br />
+<div class="row">
+    <div class="col-lg-4 contact-agileits-w3layouts">
+
+    </div>
+    <div class="col-lg-4 regstr-r-w3-agileits mt-lg-0 mt-5">
+        <div class="form-bg-w3ls">
+            <form action="/Ish/JoySaqlash" method="post">
+                <div class="form-group">
+                    <input type="text" name="XodimId" class="form-control" value="@ViewBag.Id" placeholder="Xodim" required="" hidden="hidden">
+                </div>
+                <div class="form-group">
+                    <select name="JoyId" id="narxlar" class="form-control" style="height:50px;">
+                        <option disabled selected>Joyni tanlang...</option>
+                        @foreach (Joylar n in Model.Joylar)
+                        {
+                            <option value="@n.Id">@n.Nomeri</option>
+                        }
+
+                    </select>
+                </div>
+
+
+                <button type="submit" class="button-w3layouts border btntext-uppercase">Saqlash</button>
+            </form>
+        </div>
+    </div>
+</div><br />
+<br />
+<div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2"><a href="/Ish/Qvga" class="btn btn-danger">Bosh sahifa</a></div>
+
+</div>

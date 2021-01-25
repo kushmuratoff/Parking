@@ -1,0 +1,58 @@
+﻿@model WebApplication_Parkovka.Models.JadvalFoy
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>JadvalFoy</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Joylar.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Joylar.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FoyFISH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FoyFISH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MoshinaN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoshinaN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KelishV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KelishV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KetishV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KetishV)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

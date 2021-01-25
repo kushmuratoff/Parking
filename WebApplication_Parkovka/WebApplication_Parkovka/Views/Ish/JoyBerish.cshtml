@@ -1,0 +1,37 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+@{
+    ViewBag.Title = "Joy_qush";
+}
+<br />
+<br />
+<h1 style="text-align:center;"><b>Joy narxini tanlang</b></h1>
+<br />
+<br />
+<div class="row">
+    <div class="col-lg-4 contact-agileits-w3layouts">
+
+    </div>
+    <div class="col-lg-4 regstr-r-w3-agileits mt-lg-0 mt-5">
+        <div class="form-bg-w3ls">
+            <form action="/Ish/JoyBel" method="post">
+                <div class="form-group">
+                    <input type="text" name="XodimId" class="form-control" value="@ViewBag.Id" placeholder="Xodim" required="" hidden="hidden">
+                </div>
+                <div class="form-group">
+                    <select name="NarxId" id="narxlar" class="form-control" style="height:50px;">
+                        <option disabled selected>Narxni tanlang...</option>
+                        @foreach (Narx n in Model.Narx)
+                        {
+                            <option value="@n.Id">@n.Summa</option>
+                        }
+
+                    </select>
+                </div>
+               
+
+                <button type="submit" class="button-w3layouts border btntext-uppercase">Saqlash</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+﻿@model WebApplication_Parkovka.Models.Sahifa
+@using WebApplication_Parkovka.Models
+@{
+    ViewBag.Title = "Ketish";
+}
+ 
+<br />
+<br />
+<h1 style="text-align:center;"><b>Foydalanuvchining ma'lumotlari</b></h1>
+<br />
+<br />
+@foreach(JadvalFoy t in Model.JadvalFoy)
+{
+    
+<h2 style="text-align:center;">FISH: @t.FoyFISH</h2>
+    <h2 style="text-align:center;">Mashina raqami: @t.MoshinaN</h2>
+    <h2 style="text-align:center;">Kelgan vaqti: @t.KelishV</h2>
+    <h2 style="text-align:center;">Ketgan vaqti: @t.KetishV</h2>
+    <h2 style="text-align:center;">Joy nomeri: @t.Joylar.Nomeri</h2>
+    <h2 style="text-align:center;">To'lovi: @ViewBag.vaqt</h2>
+}
+
+<br />
+<div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2"> <div class="col-md-2"><a href="/Ish/Qvga" class="btn btn-danger" style="width:120px;">Bosh sahifa</a></div></div>
+
+</div>

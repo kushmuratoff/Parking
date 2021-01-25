@@ -1,0 +1,64 @@
+﻿@model WebApplication_Parkovka.Models.Xodim
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Xodim</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Joylar.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Joylar.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Userlar.Login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Userlar.Login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FISH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FISH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MoshinaR)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoshinaR)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Holat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Holat)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
